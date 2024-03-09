@@ -8,7 +8,7 @@ Anlık Güncellemeler: Döviz kurlarındaki değişimleri anlık olarak takip ed
 Grafiksel Gösterim: Kurların zaman içindeki değişimini grafiklerle görsel olarak analiz edin.
 Kolay Kullanım: Basit arayüzü ile herkesin kullanabileceği şekilde tasarlandı.
 
-[Responsive Exchange Rate App](https://doviz-exchange-rate-app-chi.vercel.app/){:target="_blank"}
+[Responsive Link : https://doviz-exchange-rate-app-chi.vercel.app/
 
 
 Proje Sahibi : Ferdi ULAŞ
