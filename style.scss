@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(İmage/capital-tablet-exchange-screen-skyscraper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+
+  .main {
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-image: url(İmage/1614776.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 5px -5px 10px #000000, inset -5px 5px 10px #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .header-wrapper h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: inherit;
+    text-shadow: 2px 2px 4px rgb(0 0 0);
+  }
+
+  .input-amount,
+  .input-result {
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .select-first-currency,
+  .select-second-currency {
+    padding: 5px;
+  }
+
+  .Calculator button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 130px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: #fff;
+    background-image: url(İmage/1614776.jpg);
+    background-size: cover;
+    box-shadow: inset 5px -5px 10px #000000;
+  }
+  .Calculator button:hover {
+    color: #e9f6ff;
+    border: 1px solid #59b4c3;
+  }
+  .Copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: inset 5px -5px 10px #000000, inset -5px 5px 10px #000000;
+    background-image: url(İmage/1614776.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 25px;
+  }
+  .YouTubeimg {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: -6px;
+  }
+  .Githubimg {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: -6px;
+  }
+  .Linkedinimg {
+    width: 45px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: -6px;
+  }
+  .WhatsAppimg {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: -6px;
+  }
+  .Copyright a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: -6px;
+  }
+  .Copyright a:hover {
+    color: red;
+  }
+  .Copyright a:active {
+    color: green;
+  }
+  .Copyright a {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  }
+  .Copyright img {
+    transition: transform 0.3s ease;
+  }
+  .Copyright img:hover {
+    transform: rotate(360deg);
+  }
+  #Arrow {
+    color: #fff;
+  }
+  #MobilMenu {
+    color: #fff;
+    display: none;
+  }
+  #Eart {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .CopyrightText {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    margin: 8px auto; /* Adjust the margin as needed */
+    text-align: center;
+  }
+
+  @media screen and (max-width: 940px) {
+    .content-wrapper {
+      display: flex;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      height: 100vh;
+    }
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    #Arrow {
+      display: none;
+    }
+    #MobilMenu {
+      display: block;
+      margin: 5px 0px;
+      text-align: center;
+      padding: 5px;
+    }
+
+    .input-amount,
+    .input-result {
+      width: 100%;
+      margin: 5px 0px;
+    }
+  }
+
+  @media screen and (max-width: 530px) {
+    .header-wrapper h4 {
+      font-size: small;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+      margin-bottom: inherit;
+      text-shadow: 2px 2px 4px rgb(0, 0, 0);
+      .CopyrightText {
+        font-size: small;
+        margin: 8px auto;
+      }
+    }
+    .Copyright {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      text-align: center;
+    }
+
+    .Copyright a {
+      margin: 8px auto;
+    }
+
+    .Copyright img {
+      margin-bottom: 0;
+    }
+
+    .CopyrightText {
+      margin: 8px auto;
+    }
+  }
+}

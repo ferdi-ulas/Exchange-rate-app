@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Döviz | Exchange rate app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="header-wrapper">
+          <i class="fa-solid fa-earth-europe" id="Eart"></i>
+          <h4>DÖVİZ KURU UYGULAMASI</h4>
+        </div>
+
+        <div class="content-wrapper">
+          <input
+            class="input-amount"
+            id="amountInput"
+            type="number"
+            placeholder="Miktar"
+          />
+
+          <select class="select-first-currency" id="firstCurrenyOption">
+            <option selected>USD</option>
+            <option>EUR</option>
+            <option>JPY</option>
+            <option>BGN</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>GBP</option>
+            <option>HUF</option>
+            <option>PLN</option>
+            <option>RON</option>
+            <option>SEK</option>
+            <option>CHF</option>
+            <option>ISK</option>
+            <option>NOK</option>
+            <option>HRK</option>
+            <option>RUB</option>
+            <option>TRY</option>
+            <option>AUD</option>
+            <option>BRL</option>
+            <option>CAD</option>
+            <option>CNY</option>
+            <option>HKD</option>
+            <option>IDR</option>
+            <option>ILS</option>
+            <option>INR</option>
+            <option>KRW</option>
+            <option>MXN</option>
+            <option>MYR</option>
+            <option>NZD</option>
+            <option>PHP</option>
+            <option>SGD</option>
+            <option>THB</option>
+            <option>ZAR</option>
+          </select>
+
+          <i class="fa-solid fa-arrow-right" id="Arrow"></i>
+          <i class="fa-solid fa-arrow-down-up-across-line" id="MobilMenu"></i>
+
+          <select class="select-second-currency" id="secondCurrencyOption">
+            <option>USD</option>
+            <option>EUR</option>
+            <option>JPY</option>
+            <option>BGN</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>GBP</option>
+            <option>HUF</option>
+            <option>PLN</option>
+            <option>RON</option>
+            <option>SEK</option>
+            <option>CHF</option>
+            <option>ISK</option>
+            <option>NOK</option>
+            <option>HRK</option>
+            <option>RUB</option>
+            <option selected>TRY</option>
+            <option>AUD</option>
+            <option>BRL</option>
+            <option>CAD</option>
+            <option>CNY</option>
+            <option>HKD</option>
+            <option>IDR</option>
+            <option>ILS</option>
+            <option>INR</option>
+            <option>KRW</option>
+            <option>MXN</option>
+            <option>MYR</option>
+            <option>NZD</option>
+            <option>PHP</option>
+            <option>SGD</option>
+            <option>THB</option>
+            <option>ZAR</option>
+          </select>
+
+          <input
+            class="input-result"
+            id="resultInput"
+            type="number"
+            placeholder="Sonuç"
+          />
+        </div>
+
+        <div class="Calculator">
+          <button id="Calculate">HESAPLA</button>
+        </div>
+      </div>
+
+     
+
+      <div class="Copyright">
+        <a href="https://github.com/ferdi-ulas" target="_blank"
+          ><img class="Githubimg" src="İmage/Octicons-mark-github.svg" alt="" />
+          Github</a
+        >
+        <a
+          href="https://www.youtube.com/channel/UChPHeSoAXW4V8C08Q3TIYxA"
+          target="_blank"
+          ><img class="YouTubeimg" src="İmage/youtube.svg" alt="" />YouTube
+        </a>
+
+        <a href="https://www.linkedin.com/in/ferdiulas-/" target="_blank">
+          <img
+            class="Linkedinimg"
+            src="İmage/LinkedIn_Logo.svg.png"
+            alt=""
+          />Linkedin</a
+        >
+        <a href="https://wa.me/+905414693292" target="_blank">
+          <img class="WhatsAppimg" src="İmage/WhatsApp.svg.png" alt="" />WhatsApp</a
+        >
+      </div>
+    </div>
+
+    <script src="Currency.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
