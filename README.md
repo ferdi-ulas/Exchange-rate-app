@@ -4,14 +4,15 @@
 
 ✨ Öne Çıkan Özellikler & Highlights :
 
-Turkish
+Turkish:
 
 Responsive Tasarım
 Anlık Güncellemeler: Döviz kurlarındaki değişimleri anlık olarak takip edin.
 Çeşitli Para Birimleri: Dünya genelindeki popüler para birimleri arasında dolaşın.
 Kolay Kullanım: Basit arayüzü ile herkesin kullanabileceği şekilde tasarlandı.
 
-English
+English:
+
 Responsive Design
 Real-time Updates: Stay updated with real-time changes in currency exchange rates.
 Various Currencies: Explore among popular currencies worldwide.
