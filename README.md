@@ -1,4 +1,4 @@
-# Döviz Kuru | Exchange-rate-app
+# Döviz Kuru | Exchange-rate-app-API
 
 
 
@@ -18,7 +18,7 @@ Real-time Updates: Stay updated with real-time changes in currency exchange rate
 Various Currencies: Explore among popular currencies worldwide.
 Easy to Use: Designed with a simple interface for everyone to use easily.
 
- Link : https://doviz-exchange-rate-app-chi.vercel.app
+ Reach the project : https://doviz-exchange-rate-app-chi.vercel.app
 
 
-Proje Sahibi : Ferdi ULAŞ
+
